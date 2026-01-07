@@ -4,11 +4,6 @@
     box-sizing:border-box;
 }
 
-/* ================================
-   GLOBAL FONT & PAGE THEME
-   Inter = clean body text
-   Poppins = stylish headings
-=================================*/
 body{
     font-family:'Inter', Arial;
     background:linear-gradient(135deg,#cfe4ff,#eaf2ff);
@@ -16,7 +11,7 @@ body{
     line-height:1.5;
 }
 
-/* Headings use Poppins font */
+
 h1,h2,h3,.logo{
     font-family:'Poppins', sans-serif;
 }
@@ -132,7 +127,7 @@ h1,h2,h3,.logo{
     transition:0.3s;
 }
 
-/* Fix image size equal for all */
+
 .card img{
     width:100%;
     height:230px;
@@ -140,24 +135,20 @@ h1,h2,h3,.logo{
     border-radius:14px;
 }
 
-/* Hover effect */
 .card:hover{
     transform:translateY(-6px);
 }
 
-/* Product title */
 h3{
     margin-top:10px;
     font-weight:900;
 }
 
-/* Price highlight */
 .price{
     color:#1f6feb;
     font-weight:900;
 }
 
-/* Small description */
 .desc{
     font-size:13px;
 }
