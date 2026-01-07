@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Technologies – Book with Practice Example</title>
+</head>
+<body>
+<h1 id="top">Web Technologies — Mini Book</h1>
+
+<nav>
+    <a href="#practice">HTML Practical Example</a><br>
+    <a href="#intro">Introduction</a><br>
+    <a href="#html">Chapter 1 — HTML</a><br>
+    <a href="#css">Chapter 2 — CSS</a><br>
+    <a href="#js">Chapter 3 — JavaScript</a><br>
+    <a href="#dotnet">Chapter 4 — .NET</a>
+</nav>
+
+<hr>
+
+<section id="practice">
+<h2>HTML Practical Example</h2>
+<h3>Welcome to HTML</h3>
+<h4>Understanding Basic Tags</h4>
+
+<p>This is a paragraph. HTML means <b>HyperText Markup Language</b>.</p>
+<p>You can make text <i>italic</i>, <u>underlined</u>, or <b>bold</b>.</p>
+
+<p>This line ends here.<br>And this text starts on a new line.</p>
+
+<hr>
+
+<p>Here is a hyperlink:
+<a href="https://www.google.com" target="_blank">Visit Google</a></p>
+
+<p>Normal Image Example:</p>
+<img src="image.png" alt="Sample Image">
+
+<hr>
+
+<p>Image Map Example:</p>
+
+<img src="Map image.png" alt="Clickable Map" usemap="#samplemap">
+
+<map name="samplemap">
+<area shape="poly" coords="192,351,182,365,176,377,174,394,172,409,172,419,182,425,200,423,212,413,228,407,238,399,232,381,220,371,210,358" href="https://en.wikipedia.org/wiki/Telangana">
+<area shape="rect" coords="120,315,124,285" href="https://en.wikipedia.org/wiki/Madhya_Pradesh">
+<area shape="circle" coords="152,215,1" href="https://en.wikipedia.org/wiki/Rajasthan">
+</map>
+
+<hr>
+
+<h3>Student Details Table</h3>
+
+<table border="3" cellpadding="6" cellspacing="4" width="80%" align="center">
+<caption><b>Student Information</b></caption>
+
+<thead>
+<tr bgcolor="lightgray" align="center">
+<th rowspan="2">Roll No</th>
+<th rowspan="2">Name</th>
+<th colspan="2">Academic Details</th>
+<th rowspan="2">Email</th>
+</tr>
+<tr bgcolor="lightyellow" align="center">
+<th>Course</th>
+<th>Year</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>101</td><td>Thanmai</td><td>Data Science</td><td>3rd Year</td><td>thanmai@example.com</td>
+</tr>
+<tr>
+<td>102</td><td>Pranay</td><td>CSE</td><td>2nd Year</td><td>pranay@example.com</td>
+</tr>
+<tr>
+<td>103</td><td>Rahul</td><td>IT</td><td>1st Year</td><td>rahul@example.com</td>
+</tr>
+</tbody>
+
+<tfoot>
+<tr align="center">
+<td colspan="5">Faculty Coordinator :</td>
+</tr>
+</tfoot>
+</table>
+
+<hr>
+
+<h3>Student Registration Form</h3>
+
+<form>
+Full Name: <input type="text" placeholder="Enter your name"><br><br>
+Email: <input type="email" placeholder="Enter email"><br><br>
+Password: <input type="password"><br><br>
+Date of Birth: <input type="date"><br><br>
+
+Select Gender:<br>
+<input type="radio" name="gender"> Male<br>
+<input type="radio" name="gender"> Female<br>
+<input type="radio" name="gender"> Other<br><br>
+
+Select Course:<br>
+<select>
+<option>B.Tech CSE</option>
+<option>B.Tech IT</option>
+<option>B.Tech Data Science</option>
+<option>BCA</option>
+</select><br><br>
+
+Hobbies:<br>
+<input type="checkbox"> Reading<br>
+<input type="checkbox"> Music<br>
+<input type="checkbox"> Sports<br>
+<input type="checkbox"> Coding<br><br>
+
+Upload Photo: <input type="file"><br><br>
+Mobile Number: <input type="tel"><br><br>
+
+Address:<br>
+<textarea rows="4" cols="40"></textarea><br><br>
+
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</form>
+
+<hr>
+
+<h3>Preformatted Example</h3>
+<pre>
+Line 1
+   Line 2
+Line 3
+</pre>
+
+<p><a href="#top">Back to Top</a></p>
+</section>
+
+<hr>
+
+<section id="intro">
+<h2>Introduction</h2>
+<p>Web development is the process of building websites and web applications. Every website — whether small personal blogs or large online platforms — is built using core web technologies.</p>
+<p>In this book, you will learn about HTML, CSS, JavaScript and .NET. These technologies together allow developers to design, style, program and deploy powerful websites.</p>
+<p>Understanding these concepts is the first step towards becoming a web developer.</p>
+</section>
+
+<hr>
+
+<section id="html">
+<h2>Chapter 1 — HTML</h2>
+<p>HTML (HyperText Markup Language) is the language used to create the structure of webpages. It uses tags to define elements like headings, paragraphs, images and links.</p>
+</section>
+
+<hr>
+
+<section id="css">
+<h2>Chapter 2 — CSS</h2>
+<p>CSS (Cascading Style Sheets) is used to control the look and design of webpages. It changes colors, fonts, spacing, borders and layouts.</p>
+<p>While HTML is like the skeleton, CSS is like the clothes and appearance of the website. It makes webpages attractive and user-friendly.</p>
+</section>
+
+<hr>
+
+<section id="js">
+<h2>Chapter 3 — JavaScript</h2>
+<p>JavaScript is a programming language that makes webpages interactive. It allows pages to respond to user actions like clicking buttons, entering data or scrolling.</p>
+</section>
+
+<hr>
+
+<section id="dotnet">
+<h2>Chapter 4 — .NET</h2>
+<p>.NET is a framework developed by Microsoft for building secure, high-performance applications. It is widely used in industries such as banking, healthcare and e-commerce.</p>
+<p><a href="#top">Back to Top</a></p>
+</section>
+
+<hr>
+</body>
+</html>
