@@ -1,0 +1,35 @@
+p{
+    font-size:16px;
+    color:#222;
+}
+
+a:hover{
+    color:blue;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+td, th{
+    border:1px solid gray;
+}
+
+input, textarea, select{
+    border:1px solid #555;
+    padding:4px;
+}
+
+caption{
+    font-size:18px;
+    color:#003366;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    border-radius:4px;
+}
+
+tr:hover{
+    background:#eef6ff;
+}
