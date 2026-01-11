@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance Enquiry & Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+
+    <h1>Insurance Enquiry & Feedback</h1>
+    <p class="description">
+        Submit your policy related queries or feedback. Our support team will assist you shortly.
+    </p>
+
+    <div id="successMessage" class="success-message"></div>
+
+    <form id="enquiryForm" novalidate>
+
+        <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" id="fullName">
+            <small class="error" id="nameError"></small>
+        </div>
+
+        <div class="form-group">
+            <label>Email *</label>
+            <input type="email" id="email">
+            <small class="error" id="emailError"></small>
+        </div>
+
+        <div class="form-group">
+            <label>Mobile Number *</label>
+            <input type="tel" id="mobile">
+            <small class="error" id="mobileError"></small>
+        </div>
+
+        <div class="form-group">
+            <label>Request Type *</label>
+            <select id="requestType">
+                <option value="">Select Request Type</option>
+                <option>Policy Enquiry</option>
+                <option>Claim Related</option>
+                <option>Feedback</option>
+            </select>
+            <small class="error" id="requestError"></small>
+        </div>
+
+        <div class="form-group">
+            <label>Policy Type *</label>
+            <select id="policyType">
+                <option value="">Select Policy Type</option>
+                <option>Health Insurance</option>
+                <option>Life Insurance</option>
+                <option>Vehicle Insurance</option>
+                <option>Home Insurance</option>
+            </select>
+            <small class="error" id="policyError"></small>
+        </div>
+
+        <div class="form-group">
+            <label>Message *</label>
+            <textarea id="message" rows="4"></textarea>
+            <small class="error" id="messageError"></small>
+        </div>
+
+        <div class="form-group">
+            <label>Experience Rating *</label>
+
+            <div class="rating-group">
+                <div class="rating-item"><span><input type="radio" name="rating" value="1"> 1</span></div>
+                <div class="rating-item"><span><input type="radio" name="rating" value="2"> 2</span></div>
+                <div class="rating-item"><span><input type="radio" name="rating" value="3"> 3</span></div>
+                <div class="rating-item"><span><input type="radio" name="rating" value="4"> 4</span></div>
+                <div class="rating-item"><span><input type="radio" name="rating" value="5"> 5</span></div>
+            </div>
+
+            <small class="error" id="ratingError"></small>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

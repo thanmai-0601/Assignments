@@ -1,0 +1,53 @@
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #475569;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16,185,129,0.4);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 6px 15px rgba(16,185,129,0.4);
+}
+
+.error {
+  color: #f87171;
+  font-size: 12px;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, rgba(16,185,129,0.35), rgba(5,150,105,0.25));
+  border: 1px solid rgba(16,185,129,0.4);
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.plan-card-green {
+  border: 1px solid rgba(16,185,129,0.4);
+}
+
+.summary-green {
+  border-left: 4px solid #10b981;
+}
+
+tbody tr:hover {
+  background: rgba(16,185,129,0.08);
+}

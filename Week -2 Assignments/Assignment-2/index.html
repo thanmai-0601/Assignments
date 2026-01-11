@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SecureLife Insurance Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-slate-900 text-slate-200">
+
+<header class="bg-slate-950 p-5">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+
+    <!-- Logo + Name -->
+    <div class="flex items-center gap-2">
+      <img src="logo.png" alt="SecureLife Logo" class="h-20 w-auto object-contain">
+      <h1 class="text-4xl font-bold text-white leading-none">SecureLife Insurance</h1>
+    </div>
+
+    <p class="text-sm text-slate-200">Protecting your future, today.</p>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="bg-emerald-800 py-12">
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+    <div>
+      <h2 class="text-4xl font-bold text-white mb-3">Smart Insurance Solutions</h2>
+      <p class="mb-5">Manage customer enquiries and policies efficiently.</p>
+      <a href="#enquiry" class="btn-primary">Get Started</a>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4">
+      <div class="stat-card">
+        <p id="statCustomers" class="text-xl font-bold">0</p>
+        <p>Customers</p>
+      </div>
+      <div class="stat-card">
+        <p id="statPolicies" class="text-xl font-bold">0</p>
+        <p>Policies</p>
+      </div>
+      <div class="stat-card">
+        <p id="statClaims" class="text-xl font-bold">0</p>
+        <p>Claims</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Plans -->
+<section class="max-w-7xl mx-auto p-6">
+  <h2 class="text-2xl font-bold mb-4 text-emerald-400">Insurance Plans</h2>
+  <div id="plansContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+</section>
+
+<!-- Form -->
+<section id="enquiry" class="max-w-7xl mx-auto p-6">
+  <h2 class="text-2xl font-bold mb-4 text-emerald-400">Customer Enquiry Form</h2>
+
+  <form id="enquiryForm" class="bg-slate-800 p-6 rounded grid grid-cols-1 md:grid-cols-2 gap-4">
+
+    <div>
+      <label>Customer Name</label>
+      <input id="name" class="input-field">
+      <small id="nameError" class="error"></small>
+    </div>
+
+    <div>
+      <label>Age</label>
+      <input id="age" type="number" class="input-field">
+      <small id="ageError" class="error"></small>
+    </div>
+
+    <div>
+      <label>Email</label>
+      <input id="email" type="email" class="input-field">
+      <small id="emailError" class="error"></small>
+    </div>
+
+    <div>
+      <label>Policy Type</label>
+      <select id="policy" class="input-field">
+        <option value="">Select</option>
+        <option>Health</option>
+        <option>Life</option>
+        <option>Vehicle</option>
+      </select>
+      <small id="policyError" class="error"></small>
+    </div>
+
+    <div class="md:col-span-2">
+      <label>Coverage Amount: <span id="coverageValue">1</span>L</label>
+      <input id="coverage" type="range" min="1" max="10" value="1" class="w-full accent-emerald-500">
+    </div>
+
+    <div class="md:col-span-2">
+      <button class="btn-primary w-full">Submit</button>
+    </div>
+
+  </form>
+</section>
+
+<!-- Dashboard -->
+<section class="max-w-7xl mx-auto p-6">
+  <h2 class="text-2xl font-bold mb-4 text-emerald-400">Customer Dashboard</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+
+    <select id="filterPolicy" class="input-field">
+      <option value="All">All Policies</option>
+      <option>Health</option>
+      <option>Life</option>
+      <option>Vehicle</option>
+    </select>
+
+    <input id="searchName" placeholder="Search by name" class="input-field">
+
+    <div class="bg-slate-800 p-2 rounded summary-green">
+      Total Premium: ₹ <span id="totalPremium">0</span>
+    </div>
+
+  </div>
+
+  <div class="overflow-x-auto">
+    <table class="w-full bg-slate-800 rounded text-center">
+      <thead class="bg-emerald-950">
+        <tr>
+          <th class="p-2">Name</th>
+          <th>Age</th>
+          <th>Policy</th>
+          <th>Coverage</th>
+          <th>Premium</th>
+        </tr>
+      </thead>
+      <tbody id="customerTable"></tbody>
+    </table>
+  </div>
+
+</section>
+
+<footer class="bg-slate-950 text-center p-4 mt-10">
+  © 2026 SecureLife Insurance
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
