@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    padding: 20px;
+}
+
+h1 {
+    color: #1f3c88;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.box, .policy-card, .claim-row {
+    padding: 15px;
+    border: 2px solid #1f3c88;
+    margin-top: 10px;
+    width: 350px;
+    background: #ffffff;
+    position: relative;
+}
+
+button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background: #1f3c88;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #162b66;
+}
