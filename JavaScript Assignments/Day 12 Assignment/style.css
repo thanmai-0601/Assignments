@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    background: #f4f6fb;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+#policiesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 15px;
+}
+
+.policy-card {
+    background: white;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.active {
+    color: green;
+}
+
+.inactive {
+    color: red;
+}
+
+#message {
+    margin: 10px;
+    font-weight: bold;
+    color: darkred;
+}

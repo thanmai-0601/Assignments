@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Insurance Portal</h1>
+
+<div class="controls">
+    <button onclick="filterPolicies('All')">All</button>
+    <button onclick="filterPolicies('Health')">Health</button>
+    <button onclick="filterPolicies('Life')">Life</button>
+    <button onclick="filterPolicies('Vehicle')">Vehicle</button>
+
+    <button onclick="calculateTotalPremium()">Total Active Premium</button>
+    <button onclick="applyDiscount()">Apply Discount</button>
+</div>
+
+<div id="message"></div>
+
+<div id="policiesContainer"></div>
+
+<h3>Buy Policy</h3>
+<input type="text" id="policyIdInput" placeholder="Enter Policy ID">
+<button onclick="purchasePolicy()">Purchase</button>
+
+<script src="script.js"></script>
+</body>
+</html>
