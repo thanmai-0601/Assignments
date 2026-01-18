@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Banking Operations Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🏦 Online Banking Operations Dashboard</h1>
+
+<div class="controls">
+  <input type="text" id="searchInput" placeholder="Search by Account Holder Name">
+  
+  <select id="branchFilter">
+    <option value="">All Branches</option>
+  </select>
+
+  <button id="sortBtn">Sort by Balance (High → Low)</button>
+</div>
+
+<div class="summary">
+  <h3>Total Bank Balance: ₹<span id="totalBalance">0</span></h3>
+</div>
+
+<div id="loader" class="loader hidden">Loading accounts...</div>
+<div id="error" class="error hidden"></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Account No</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Branch</th>
+      <th>Balance</th>
+      <th>Actions</th>
+      <th>History</th>
+    </tr>
+  </thead>
+  <tbody id="accountsBody"></tbody>
+</table>
+
+<h2>Create New Account</h2>
+<form id="createForm">
+  <input type="text" id="name" placeholder="Name" required>
+  <input type="email" id="email" placeholder="Email" required>
+  <input type="text" id="branch" placeholder="Branch" required>
+  <button type="submit">Create Account</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
