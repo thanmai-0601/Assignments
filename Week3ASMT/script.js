@@ -65,7 +65,7 @@ function renderAccounts(list = accounts) {
 
     tr.innerHTML = `
       <td>${acc.id}</td>
-      <td>${acc.name}</td>
+      <td>${acc.Name}</td>
       <td>${acc.email}</td>
       <td>${acc.branch}</td>
       <td>₹${acc.balance}</td>
@@ -170,7 +170,7 @@ document.getElementById("createForm").addEventListener("submit", async e => {
   e.preventDefault();
 
   const newAcc = {
-    name: name.value,
+    Name: Name.value,
     email: email.value,
     address: { city: branch.value }
   };
@@ -182,10 +182,10 @@ document.getElementById("createForm").addEventListener("submit", async e => {
   });
 
   const data = await res.json();
-
+  
   const account = {
     id: Date.now(),
-    name: data.name,
+    Name: data.Name,
     email: data.email,
     branch: data.address.city,
     balance: 10000,
