@@ -1,0 +1,13 @@
+.description-container {
+  text-align: center;
+  padding: 8px 20px;
+  margin: 0;
+}
+
+.description-container h2 {
+  margin-bottom: 6px;
+}
+
+.description-container p {
+  margin: 0;
+}

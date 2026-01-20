@@ -1,0 +1,37 @@
+.banner {
+  background: linear-gradient(135deg, #F4EAF3, #EED7EB);
+  margin: 0 40px;
+  padding: 16px 20px;
+  margin: 10px 40px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.logo-box {
+  position: absolute;
+  left: 40px;
+}
+.logo-box img {
+  height: 45px;
+}
+
+.text-box {
+  text-align: center;
+}
+
+.text-box h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+  color: #3B1F3B;
+}
+
+.text-box p {
+  margin-top: 6px;
+  font-size: 15px;
+  color: #6B4C6B;
+}

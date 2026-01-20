@@ -1,0 +1,20 @@
+.page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;              /* ✅ EVEN spacing here */
+  padding-top: 8px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(180deg, #F7EFF6 0%, #EFE2EE 100%);
+  color: #3B1F3B;
+}
