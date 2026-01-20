@@ -1,0 +1,10 @@
+<h2>Message Service Demo</h2>
+
+<input type="text" [(ngModel)]="message" placeholder="Enter message">
+<button (click)="addMessage()">Add</button>
+
+<ul>
+  @for (msg of messages; track $index) {
+    <li>{{ msg }}</li>
+  }
+</ul>
