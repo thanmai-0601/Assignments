@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "email": "aarav@gmail.com",
+      "age": 22,
+      "phone": "9876543210",
+      "city": "Hyderabad",
+      "role": "Student"
+    },
+    {
+      "id": 2,
+      "name": "Ananya Reddy",
+      "email": "ananya@gmail.com",
+      "age": 21,
+      "phone": "9123456780",
+      "city": "Bangalore",
+      "role": "Intern"
+    },
+    {
+      "id": 3,
+      "name": "Rohit Verma",
+      "email": "rohit@gmail.com",
+      "age": 24,
+      "phone": "9988776655",
+      "city": "Delhi",
+      "role": "Dev"
+    },
+    {
+      "name": "Akshitha",
+      "email": "aks@yahoo.com",
+      "age": 76,
+      "phone": "6373848594898",
+      "city": "Guntur",
+      "role": "CEO",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+<div class="min-h-screen bg-gray-100 py-10">
+  <div class="max-w-5xl mx-auto space-y-10">
+
+    <!-- ================= FORM ================= -->
+    <div class="bg-white p-6 rounded-xl shadow-md">
+      <h3 class="text-xl font-semibold mb-6 text-center">
+        {{ isEdit ? 'Update User' : 'Create New User' }}
+      </h3>
+
+      <div class="grid grid-cols-2 gap-4">
+        <input class="input" type="text" [(ngModel)]="user.name" placeholder="Name">
+        <input class="input" type="email" [(ngModel)]="user.email" placeholder="Email">
+
+        <input class="input" type="number" [(ngModel)]="user.age" placeholder="Age">
+        <input class="input" type="text" [(ngModel)]="user.phone" placeholder="Phone">
+
+        <input class="input" type="text" [(ngModel)]="user.city" placeholder="City">
+        <input class="input" type="text" [(ngModel)]="user.role" placeholder="Role">
+      </div>
+
+      <div class="mt-6 flex justify-center gap-4">
+        <button
+          class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+          (click)="addUser()">
+          {{ isEdit ? 'Update User' : 'Add User' }}
+        </button>
+
+        @if (isEdit) {
+          <button
+            class="bg-gray-400 text-white px-6 py-2 rounded hover:bg-gray-500"
+            (click)="resetForm()">
+            Cancel
+          </button>
+        }
+      </div>
+    </div>
+
+    <!-- ================= TABLE ================= -->
+    <div class="bg-white rounded-xl shadow-md p-4 overflow-x-auto">
+      @if (users$ | async; as usersList) {
+        <table class="min-w-full border border-collapse text-center">
+          <thead class="bg-gray-200">
+            <tr>
+              <th class="th">ID</th>
+              <th class="th">Name</th>
+              <th class="th">Email</th>
+              <th class="th">Age</th>
+              <th class="th">Phone</th>
+              <th class="th">City</th>
+              <th class="th">Role</th>
+              <th class="th">Actions</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            @for (user of usersList; track user.id) {
+              <tr class="border-t hover:bg-gray-50">
+
+                <td class="td">{{ user.id }}</td>
+
+                <!-- Click for Quick Look -->
+                <td
+                  class="td font-medium text-blue-600 cursor-pointer hover:underline"
+                  (click)="showQuickUser(user.id)">
+                  {{ user.name }}
+                </td>
+
+                <td class="td">{{ user.email }}</td>
+                <td class="td">{{ user.age }}</td>
+                <td class="td">{{ user.phone }}</td>
+                <td class="td">{{ user.city }}</td>
+                <td class="td">{{ user.role }}</td>
+
+                <td class="td space-x-2">
+                  <button
+                    class="bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600"
+                    (click)="updateUser(user)">
+                    Edit
+                  </button>
+
+                  <button
+                    class="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700"
+                    (click)="deleteUser(user.id)">
+                    Delete
+                  </button>
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      } @else {
+        <div class="flex flex-col items-center p-6">
+          <div class="animate-spin h-8 w-8 border-4 border-blue-500 border-t-transparent rounded-full"></div>
+          <p class="mt-2 text-gray-600">Syncing with server...</p>
+        </div>
+      }
+    </div>
+
+    <!-- ================= QUICK LOOK ================= -->
+    <div class="bg-white p-5 rounded-xl shadow max-w-md mx-auto">
+  <h4 class="font-semibold mb-4 text-center">Quick Look</h4>
+
+  @if (singleUser$ | async; as single) {
+
+  <div class="bg-white p-6 rounded-xl shadow max-w-md mx-auto border">
+
+    <!-- Header -->
+    <div class="flex items-center gap-4 mb-4">
+      <div class="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center text-lg font-semibold">
+        {{ single.name.charAt(0) }}
+      </div>
+
+      <div>
+        <!-- Name + Age -->
+        <div class="flex items-center gap-3">
+          <h4 class="font-semibold text-lg">{{ single.name }}</h4>
+          <span class="text-sm text-black-500">({{ single.age }})</span>
+        </div>
+
+        <!-- Role -->
+        <p class="text-sm text-gray-500">{{ single.role }}</p>
+      </div>
+    </div>
+
+    <!-- Details -->
+    <div class="space-y-2 text-sm text-gray-700">
+
+      <div class="flex">
+        <span class="w-20 font-medium">Email:</span>
+        <span>{{ single.email }}</span>
+      </div>
+
+      <div class="flex">
+        <span class="w-20 font-medium">Phone:</span>
+        <span>{{ single.phone }}</span>
+      </div>
+
+      <div class="flex">
+        <span class="w-20 font-medium">City:</span>
+        <span>{{ single.city }}</span>
+      </div>
+
+    </div>
+
+  </div>
+
+} @else {
+  <p class="text-gray-400 text-center">Click a user name to preview</p>
+}
+
+</div>
+
+
+  </div>
+</div>
