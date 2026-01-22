@@ -1,0 +1,241 @@
+****TASK**** 1: Form Not Submitting
+
+Problems:
+Button defaults to type="submit" → page reloads
+No event.preventDefault()
+
+Fix:
+<form id="userForm">
+  <input type="text" id="username">
+  <button type="button" onclick="validate()">Submit</button>
+</form>
+
+<script>
+function validate() {
+  let name = document.getElementById("username").value;
+  if (name === "") {
+    alert("Name required");
+  }
+}
+</script>
+
+
+
+****TASK**** 2: CSS Not Applying
+
+Problem: Missing colon
+
+Fix:
+.msg {
+  color: blue;
+  font-size: 20px;
+}
+
+
+
+****TASK**** 3: Button Click Not Working
+
+Problem: Wrong function name getElementByID
+
+Fix:
+document.getElementById("btn").onclick = function () {
+  alert("Clicked");
+};
+
+
+
+****TASK**** 4: Validation Logic Error
+
+Problem: Age 18 not handled
+
+Fix:
+let age = 16;
+
+if (age >= 18) {
+  console.log("Eligible");
+} else {
+  console.log("Not Eligible");
+}
+
+
+
+****TASK**** 5: Input Value Always Empty
+
+Problem: Comparing element instead of its value
+
+Fix:
+function check() {
+  let email = document.getElementById("email").value;
+  if (email === "") {
+    alert("Email required");
+  }
+}
+
+
+
+****TASK**** 6: CSS Layout Breaking
+
+Problem: Missing unit
+
+Fix:
+.card {
+  width: 300px;
+  padding: 20px;
+}
+
+
+
+****TASK**** 7: Password Match Validation
+
+Problem: Extra space in confirm password
+
+Fix:
+let pwd = "admin123";
+let confirmPwd = "admin123";
+
+if (pwd === confirmPwd) {
+  console.log("Match");
+} else {
+  console.log("Mismatch");
+}
+
+
+
+****TASK**** 8: Hidden Element Still Taking Space
+
+Problem: visibility:hidden keeps layout space
+
+Fix:
+.alert {
+  display: none;
+}
+
+
+
+****TASK**** 9: JS Error Stops Script
+
+Problems:
+Missing quote
+Missing semicolon
+
+Fix:
+console.log("Start");
+alert("Hello");
+console.log("End");
+
+
+
+****TASK**** 10: Checkbox Validation
+
+Problem: terms not defined
+
+Fix:
+function submitForm() {
+  let terms = document.getElementById("terms");
+  if (terms.checked === false) {
+    alert("Accept terms");
+  }
+}
+
+
+
+****TASK**** 11: Assignment Instead of Comparison
+
+Problem: = instead of == / ===
+
+Fix:
+if (mobile.length === 10) {
+  alert("Valid");
+} else {
+  alert("Invalid");
+}
+
+
+
+****TASK**** 12: Policy Holder Name Validation
+
+Problem: Checking element instead of value
+
+Fix:
+let name = document.getElementById("policyName").value;
+if (name === "") {
+  alert("Policy holder name required");
+}
+
+
+
+****TASK**** 13: Insurance Plan Dropdown
+
+Problems:
+Assignment operator used
+Default option not value-safe
+
+Fix:
+<option value="">Select Plan</option>
+
+if (plan === "") {
+  alert("Please choose a plan");
+}
+
+
+
+****TASK**** 14: Policy Number Display Bug
+
+Problem: Wrong variable name
+
+Fix:
+let policyNumber = 123456;
+document.getElementById("policy").innerHTML = policyNumber;
+
+
+
+****TASK**** 15: Claim Amount Validation
+
+Problem: Logic reversed
+
+Fix:
+let claimAmount = "abc";
+
+if (isNaN(claimAmount)) {
+  alert("Invalid claim");
+} else {
+  alert("Valid claim");
+}
+
+
+
+****TASK**** 16: Policy Type Comparison Error
+
+Problem: Case mismatch
+
+Fix:
+if (policyType.toLowerCase() === "health") {
+  console.log("Health Policy");
+}
+
+
+
+****TASK**** 17: Policy List Rendering Bug
+
+Problem: No line breaks
+
+Fix:
+policies.forEach(function (policy) {
+  document.getElementById("list").innerHTML += policy + "<br>";
+});
+
+
+
+****TASK**** 18: Premium Amount Validation
+
+This one is already logically correct, but better type conversion:
+
+Improved:
+
+let premium = "5000";
+
+if (isNaN(Number(premium))) {
+  console.log("Invalid premium");
+} else {
+  console.log("Valid premium");
+}
