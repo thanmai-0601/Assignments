@@ -1,0 +1,15 @@
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\bin\Debug\net9.0\Exercise_1.exe
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\bin\Debug\net9.0\Exercise_1.deps.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\bin\Debug\net9.0\Exercise_1.runtimeconfig.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\bin\Debug\net9.0\Exercise_1.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\bin\Debug\net9.0\Exercise_1.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\obj\Debug\net9.0\Exercise_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\obj\Debug\net9.0\Exercise_1.AssemblyInfoInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\obj\Debug\net9.0\Exercise_1.AssemblyInfo.cs
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\obj\Debug\net9.0\Exercise_1.csproj.CoreCompileInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\obj\Debug\net9.0\Exercise_1.sourcelink.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\obj\Debug\net9.0\Exercise_1.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\obj\Debug\net9.0\refint\Exercise_1.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\obj\Debug\net9.0\Exercise_1.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\obj\Debug\net9.0\Exercise_1.genruntimeconfig.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 5-CS-ASSMT-1\Exercise_1\obj\Debug\net9.0\ref\Exercise_1.dll
