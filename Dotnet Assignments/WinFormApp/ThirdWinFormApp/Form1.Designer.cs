@@ -120,7 +120,7 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(80, 400);
+            btnAdd.Location = new Point(49, 395);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(112, 34);
             btnAdd.TabIndex = 8;
@@ -130,9 +130,9 @@
             // 
             // btnRemoveCountry
             // 
-            btnRemoveCountry.Location = new Point(239, 405);
+            btnRemoveCountry.Location = new Point(219, 395);
             btnRemoveCountry.Name = "btnRemoveCountry";
-            btnRemoveCountry.Size = new Size(112, 34);
+            btnRemoveCountry.Size = new Size(157, 34);
             btnRemoveCountry.TabIndex = 9;
             btnRemoveCountry.Text = "Remove Country";
             btnRemoveCountry.UseVisualStyleBackColor = true;
@@ -140,9 +140,9 @@
             // 
             // btnRemoveState
             // 
-            btnRemoveState.Location = new Point(415, 402);
+            btnRemoveState.Location = new Point(435, 395);
             btnRemoveState.Name = "btnRemoveState";
-            btnRemoveState.Size = new Size(112, 34);
+            btnRemoveState.Size = new Size(141, 34);
             btnRemoveState.TabIndex = 10;
             btnRemoveState.Text = "Remove State";
             btnRemoveState.UseVisualStyleBackColor = true;
@@ -150,9 +150,9 @@
             // 
             // btnShowDetails
             // 
-            btnShowDetails.Location = new Point(594, 395);
+            btnShowDetails.Location = new Point(628, 395);
             btnShowDetails.Name = "btnShowDetails";
-            btnShowDetails.Size = new Size(112, 34);
+            btnShowDetails.Size = new Size(142, 34);
             btnShowDetails.TabIndex = 11;
             btnShowDetails.Text = "Show Details";
             btnShowDetails.UseVisualStyleBackColor = true;
@@ -196,7 +196,7 @@
             Controls.Add(txtState);
             Controls.Add(txtCountry);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Country Info";
             ResumeLayout(false);
             PerformLayout();
         }
