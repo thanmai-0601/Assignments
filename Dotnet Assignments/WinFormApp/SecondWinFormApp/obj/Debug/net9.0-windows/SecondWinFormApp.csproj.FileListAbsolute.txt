@@ -1,0 +1,17 @@
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\bin\Debug\net9.0-windows\SecondWinFormApp.exe
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\bin\Debug\net9.0-windows\SecondWinFormApp.deps.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\bin\Debug\net9.0-windows\SecondWinFormApp.runtimeconfig.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\bin\Debug\net9.0-windows\SecondWinFormApp.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\bin\Debug\net9.0-windows\SecondWinFormApp.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\SecondWinFormApp.Form1.resources
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\SecondWinFormApp.csproj.GenerateResource.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\SecondWinFormApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\SecondWinFormApp.AssemblyInfoInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\SecondWinFormApp.AssemblyInfo.cs
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\SecondWinFormApp.csproj.CoreCompileInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\SecondWinFormApp.sourcelink.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\SecondWinFormApp.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\refint\SecondWinFormApp.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\SecondWinFormApp.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\SecondWinFormApp.genruntimeconfig.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\SecondWinFormApp\obj\Debug\net9.0-windows\ref\SecondWinFormApp.dll

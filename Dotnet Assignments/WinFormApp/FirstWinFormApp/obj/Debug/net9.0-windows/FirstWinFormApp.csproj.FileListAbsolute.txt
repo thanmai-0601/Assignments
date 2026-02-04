@@ -1,0 +1,17 @@
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\bin\Debug\net9.0-windows\FirstWinFormApp.exe
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\bin\Debug\net9.0-windows\FirstWinFormApp.deps.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\bin\Debug\net9.0-windows\FirstWinFormApp.runtimeconfig.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\bin\Debug\net9.0-windows\FirstWinFormApp.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\bin\Debug\net9.0-windows\FirstWinFormApp.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\FirstWinFormApp.Form1.resources
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\FirstWinFormApp.csproj.GenerateResource.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\FirstWinFormApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\FirstWinFormApp.AssemblyInfoInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\FirstWinFormApp.AssemblyInfo.cs
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\FirstWinFormApp.csproj.CoreCompileInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\FirstWinFormApp.sourcelink.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\FirstWinFormApp.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\refint\FirstWinFormApp.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\FirstWinFormApp.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\FirstWinFormApp.genruntimeconfig.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\WinFormApp\FirstWinFormApp\obj\Debug\net9.0-windows\ref\FirstWinFormApp.dll
