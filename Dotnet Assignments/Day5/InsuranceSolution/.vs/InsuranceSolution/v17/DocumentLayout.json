@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day5\\InsuranceSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4FD083-339D-41CE-8D3D-16C3997D199F}|InsuranceConsoleApp\\InsuranceConsoleApp.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day5\\insurancesolution\\insuranceconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4FD083-339D-41CE-8D3D-16C3997D199F}|InsuranceConsoleApp\\InsuranceConsoleApp.csproj|solutionrelative:insuranceconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38794175-D79A-45BB-BAFC-FE5CB34ECD3F}|InsuranceLibrary\\InsuranceLibrary.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day5\\insurancesolution\\insurancelibrary\\models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38794175-D79A-45BB-BAFC-FE5CB34ECD3F}|InsuranceLibrary\\InsuranceLibrary.csproj|solutionrelative:insurancelibrary\\models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38794175-D79A-45BB-BAFC-FE5CB34ECD3F}|InsuranceLibrary\\InsuranceLibrary.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day5\\insurancesolution\\insurancelibrary\\services\\policyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38794175-D79A-45BB-BAFC-FE5CB34ECD3F}|InsuranceLibrary\\InsuranceLibrary.csproj|solutionrelative:insurancelibrary\\services\\policyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38794175-D79A-45BB-BAFC-FE5CB34ECD3F}|InsuranceLibrary\\InsuranceLibrary.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day5\\insurancesolution\\insurancelibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38794175-D79A-45BB-BAFC-FE5CB34ECD3F}|InsuranceLibrary\\InsuranceLibrary.csproj|solutionrelative:insurancelibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 587,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PolicyService.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day5\\InsuranceSolution\\InsuranceLibrary\\Services\\PolicyService.cs",
+              "RelativeDocumentMoniker": "InsuranceLibrary\\Services\\PolicyService.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day5\\InsuranceSolution\\InsuranceLibrary\\Services\\PolicyService.cs",
+              "RelativeToolTip": "InsuranceLibrary\\Services\\PolicyService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:43:20.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InsurancePolicy.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day5\\InsuranceSolution\\InsuranceLibrary\\Models\\InsurancePolicy.cs",
+              "RelativeDocumentMoniker": "InsuranceLibrary\\Models\\InsurancePolicy.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day5\\InsuranceSolution\\InsuranceLibrary\\Models\\InsurancePolicy.cs",
+              "RelativeToolTip": "InsuranceLibrary\\Models\\InsurancePolicy.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCEAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:21:46.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day5\\InsuranceSolution\\InsuranceLibrary\\Class1.cs",
+              "RelativeDocumentMoniker": "InsuranceLibrary\\Class1.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day5\\InsuranceSolution\\InsuranceLibrary\\Class1.cs",
+              "RelativeToolTip": "InsuranceLibrary\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:11:31.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day5\\InsuranceSolution\\InsuranceConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "InsuranceConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day5\\InsuranceSolution\\InsuranceConsoleApp\\Program.cs",
+              "RelativeToolTip": "InsuranceConsoleApp\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:09:45.175Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

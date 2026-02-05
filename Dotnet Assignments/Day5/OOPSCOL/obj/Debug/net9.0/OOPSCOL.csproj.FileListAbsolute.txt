@@ -1,0 +1,15 @@
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\bin\Debug\net9.0\OOPSCOL.exe
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\bin\Debug\net9.0\OOPSCOL.deps.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\bin\Debug\net9.0\OOPSCOL.runtimeconfig.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\bin\Debug\net9.0\OOPSCOL.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\bin\Debug\net9.0\OOPSCOL.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\obj\Debug\net9.0\OOPSCOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\obj\Debug\net9.0\OOPSCOL.AssemblyInfoInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\obj\Debug\net9.0\OOPSCOL.AssemblyInfo.cs
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\obj\Debug\net9.0\OOPSCOL.csproj.CoreCompileInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\obj\Debug\net9.0\OOPSCOL.sourcelink.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\obj\Debug\net9.0\OOPSCOL.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\obj\Debug\net9.0\refint\OOPSCOL.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\obj\Debug\net9.0\OOPSCOL.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\obj\Debug\net9.0\OOPSCOL.genruntimeconfig.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\OOPSCOL\obj\Debug\net9.0\ref\OOPSCOL.dll

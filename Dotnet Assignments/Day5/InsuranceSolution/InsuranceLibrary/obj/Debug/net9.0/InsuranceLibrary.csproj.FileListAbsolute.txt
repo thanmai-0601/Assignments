@@ -1,0 +1,12 @@
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\bin\Debug\net9.0\InsuranceLibrary.deps.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\bin\Debug\net9.0\InsuranceLibrary.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\bin\Debug\net9.0\InsuranceLibrary.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.AssemblyInfoInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.AssemblyInfo.cs
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.sourcelink.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\obj\Debug\net9.0\refint\InsuranceLibrary.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\obj\Debug\net9.0\InsuranceLibrary.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Dotnet Assignments\Day5\InsuranceSolution\InsuranceLibrary\obj\Debug\net9.0\ref\InsuranceLibrary.dll
