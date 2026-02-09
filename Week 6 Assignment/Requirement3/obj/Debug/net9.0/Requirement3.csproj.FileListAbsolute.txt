@@ -1,0 +1,15 @@
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\bin\Debug\net9.0\Requirement3.exe
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\bin\Debug\net9.0\Requirement3.deps.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\bin\Debug\net9.0\Requirement3.runtimeconfig.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\bin\Debug\net9.0\Requirement3.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\bin\Debug\net9.0\Requirement3.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\obj\Debug\net9.0\Requirement3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\obj\Debug\net9.0\Requirement3.AssemblyInfoInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\obj\Debug\net9.0\Requirement3.AssemblyInfo.cs
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\obj\Debug\net9.0\Requirement3.csproj.CoreCompileInputs.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\obj\Debug\net9.0\Requirement3.sourcelink.json
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\obj\Debug\net9.0\Requirement3.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\obj\Debug\net9.0\refint\Requirement3.dll
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\obj\Debug\net9.0\Requirement3.pdb
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\obj\Debug\net9.0\Requirement3.genruntimeconfig.cache
+C:\Users\danda\OneDrive\Desktop\WebPages\Week 6 Assignment\Requirement3\obj\Debug\net9.0\ref\Requirement3.dll
