@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3FB4A52B-BCC2-418B-94C6-C6E76DC32815}|Requirement2\\Requirement2.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\week 6 assignment\\requirement2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB4A52B-BCC2-418B-94C6-C6E76DC32815}|Requirement2\\Requirement2.csproj|solutionrelative:requirement2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CFC88A-38D9-4FBE-BB53-C7EB3543C7B4}|Requirement1\\Requirement1.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\week 6 assignment\\requirement1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CFC88A-38D9-4FBE-BB53-C7EB3543C7B4}|Requirement1\\Requirement1.csproj|solutionrelative:requirement1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB4A52B-BCC2-418B-94C6-C6E76DC32815}|Requirement2\\Requirement2.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\week 6 assignment\\requirement2\\parkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB4A52B-BCC2-418B-94C6-C6E76DC32815}|Requirement2\\Requirement2.csproj|solutionrelative:requirement2\\parkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44DC9DF6-FD32-4F6F-874A-4D3F1FD0B9E0}|Requirement6\\Requirement6.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\week 6 assignment\\requirement6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44DC9DF6-FD32-4F6F-874A-4D3F1FD0B9E0}|Requirement6\\Requirement6.csproj|solutionrelative:requirement6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A4A571-5320-4DBD-9A8B-211B90B9C5AE}|Requirement5\\Requirement5.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\week 6 assignment\\requirement5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A4A571-5320-4DBD-9A8B-211B90B9C5AE}|Requirement5\\Requirement5.csproj|solutionrelative:requirement5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EF5-3BDD-423B-81AA-5E50FDE43BA7}|Requirment4\\Requirement4.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\week 6 assignment\\requirment4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EF5-3BDD-423B-81AA-5E50FDE43BA7}|Requirment4\\Requirement4.csproj|solutionrelative:requirment4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A4A571-5320-4DBD-9A8B-211B90B9C5AE}|Requirement5\\Requirement5.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\week 6 assignment\\requirement5\\parkedtimecomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A4A571-5320-4DBD-9A8B-211B90B9C5AE}|Requirement5\\Requirement5.csproj|solutionrelative:requirement5\\parkedtimecomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E10EF5-3BDD-423B-81AA-5E50FDE43BA7}|Requirment4\\Requirement4.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\week 6 assignment\\requirment4\\vehicebo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E10EF5-3BDD-423B-81AA-5E50FDE43BA7}|Requirment4\\Requirement4.csproj|solutionrelative:requirment4\\vehicebo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A4A571-5320-4DBD-9A8B-211B90B9C5AE}|Requirement5\\Requirement5.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\week 6 assignment\\requirement5\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A4A571-5320-4DBD-9A8B-211B90B9C5AE}|Requirement5\\Requirement5.csproj|solutionrelative:requirement5\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44DC9DF6-FD32-4F6F-874A-4D3F1FD0B9E0}|Requirement6\\Requirement6.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\week 6 assignment\\requirement6\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,33 +50,133 @@
       "DocumentGroups": [
         {
           "DockedHeight": 587,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement6\\Vehicle.cs",
-              "RelativeDocumentMoniker": "Requirement6\\Vehicle.cs",
-              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement6\\Vehicle.cs",
-              "RelativeToolTip": "Requirement6\\Vehicle.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAkwEkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ParkingLot.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement2\\ParkingLot.cs",
+              "RelativeDocumentMoniker": "Requirement2\\ParkingLot.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement2\\ParkingLot.cs",
+              "RelativeToolTip": "Requirement2\\ParkingLot.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T15:34:06.381Z",
+              "WhenOpened": "2026-02-09T04:11:18.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "parkedTimeComparer.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement5\\parkedTimeComparer.cs",
+              "RelativeDocumentMoniker": "Requirement5\\parkedTimeComparer.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement5\\parkedTimeComparer.cs",
+              "RelativeToolTip": "Requirement5\\parkedTimeComparer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:08:24.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement5\\Program.cs",
+              "RelativeDocumentMoniker": "Requirement5\\Program.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement5\\Program.cs",
+              "RelativeToolTip": "Requirement5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:07:42.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VehiceBO.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirment4\\VehiceBO.cs",
+              "RelativeDocumentMoniker": "Requirment4\\VehiceBO.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirment4\\VehiceBO.cs",
+              "RelativeToolTip": "Requirment4\\VehiceBO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:07:22.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirment4\\Program.cs",
+              "RelativeDocumentMoniker": "Requirment4\\Program.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirment4\\Program.cs",
+              "RelativeToolTip": "Requirment4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:05:43.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement2\\Program.cs",
+              "RelativeDocumentMoniker": "Requirement2\\Program.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement2\\Program.cs",
+              "RelativeToolTip": "Requirement2\\Program.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:03:52.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement1\\Program.cs",
+              "RelativeDocumentMoniker": "Requirement1\\Program.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement1\\Program.cs",
+              "RelativeToolTip": "Requirement1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:02:09.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement6\\Program.cs",
               "RelativeDocumentMoniker": "Requirement6\\Program.cs",
               "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement6\\Program.cs",
               "RelativeToolTip": "Requirement6\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwBkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T15:30:40.365Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement5\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Requirement5\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement5\\Vehicle.cs",
+              "RelativeToolTip": "Requirement5\\Vehicle.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwD4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:09:37.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement6\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Requirement6\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Week 6 Assignment\\Requirement6\\Vehicle.cs",
+              "RelativeToolTip": "Requirement6\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T15:34:06.381Z"
             }
           ]
         }

@@ -1,99 +1,84 @@
-﻿using System;
-using System.Globalization;
+﻿using Requirement2;
+using System;
 
-namespace Requirement1
+public class Program
 {
-    public class Program
+    public static void Main()
     {
-        static void Main(string[] args)
+        try
         {
-            try
-            {
-                // ---------------- VEHICLE 1 INPUT ----------------
-                Console.WriteLine("Enter Vehicle 1 details:");
-                // Format:
-                // regNo,name,type,weight,ticketNo,entryDateTime,amount
-                string[] v1 = Console.ReadLine().Split(',');
+            // Read parking lot name
+            Console.WriteLine("Enter the name of the Parking Lot:");
+            string name = Console.ReadLine();
 
-                // Validate input length
-                if (v1.Length != 7)
+            // Create ParkingLot object
+            ParkingLot parkingLot = new ParkingLot(name);
+
+            // Menu-driven program
+            while (true)
+            {
+                Console.WriteLine("1.Add Vehicle");
+                Console.WriteLine("2.Delete Vehicle");
+                Console.WriteLine("3.Display Vehicles");
+                Console.WriteLine("4.Exit");
+                Console.WriteLine("Enter your choice:");
+
+                // Read user choice
+                int choice = int.Parse(Console.ReadLine());
+
+                switch (choice)
                 {
-                    Console.WriteLine("Vehicle 1 input must contain exactly 7 values.");
-                    return;
+                    case 1:
+                        // Add Vehicle
+                        string details = Console.ReadLine();
+
+                        // Create Vehicle object using factory method
+                        Vehicle vehicle = Vehicle.CreateVehicle(details);
+
+                        // Add vehicle to parking lot
+                        parkingLot.AddVehicleToParkingLot(vehicle);
+
+                        Console.WriteLine("Vehicle successfully added");
+                        break;
+
+                    case 2:
+                        // Delete Vehicle
+                        Console.WriteLine("Enter the registration number of the vehicle to be deleted:");
+                        string regNo = Console.ReadLine();
+
+                        bool removed = parkingLot.RemoveVehicleFromParkingLot(regNo);
+
+                        if (removed)
+                            Console.WriteLine("Vehicle successfully deleted");
+                        else
+                            Console.WriteLine("Vehicle not found in parkinglot");
+                        break;
+
+                    case 3:
+                        // Display all vehicles
+                        parkingLot.DisplayVehicles();
+                        break;
+
+                    case 4:
+                        // Exit the program
+                        return;
+
+                    default:
+                        // Invalid menu choice
+                        Console.WriteLine("Invalid Choice");
+                        break;
                 }
-
-                // Create Ticket object for Vehicle 1
-                Ticket t1 = new Ticket(
-                    v1[4], // Ticket number
-                    DateTime.ParseExact(
-                        v1[5],                     // Entry date & time
-                        "dd-MM-yyyy HH:mm:ss",     // Required format
-                        CultureInfo.InvariantCulture),
-                    double.Parse(v1[6])          // Parking amount
-                );
-
-                // Create Vehicle object for Vehicle 1
-                Vehicle vehicle1 = new Vehicle(
-                    v1[0],                       // Registration number
-                    v1[1],                       // Vehicle name
-                    v1[2],                       // Vehicle type
-                    double.Parse(v1[3]),         // Vehicle weight
-                    t1                            // Ticket object
-                );
-
-                // ---------------- VEHICLE 2 INPUT ----------------
-                Console.WriteLine("Enter Vehicle 2 details:");
-                string[] v2 = Console.ReadLine().Split(',');
-
-                // Validate input length
-                if (v2.Length != 7)
-                {
-                    Console.WriteLine("Vehicle 2 input must contain exactly 7 values.");
-                    return;
-                }
-
-                // Create Ticket object for Vehicle 2
-                Ticket t2 = new Ticket(
-                    v2[4],
-                    DateTime.ParseExact(
-                        v2[5],
-                        "dd-MM-yyyy HH:mm:ss",
-                        CultureInfo.InvariantCulture),
-                    double.Parse(v2[6])
-                );
-
-                // Create Vehicle object for Vehicle 2
-                Vehicle vehicle2 = new Vehicle(
-                    v2[0],
-                    v2[1],
-                    v2[2],
-                    double.Parse(v2[3]),
-                    t2
-                );
-
-                // ---------------- DISPLAY DETAILS ----------------
-                Console.WriteLine("\nVehicle 1");
-                Console.WriteLine(vehicle1);
-
-                Console.WriteLine("\nVehicle 2");
-                Console.WriteLine(vehicle2);
-
-                // ---------------- COMPARISON ----------------
-                if (vehicle1.Equals(vehicle2))
-                    Console.WriteLine("\nVehicle 1 is same as Vehicle 2");
-                else
-                    Console.WriteLine("\nVehicle 1 and Vehicle 2 are different");
             }
-            catch (FormatException)
-            {
-                // Handles invalid numeric or date format
-                Console.WriteLine("Invalid number or date format. Please check the input.");
-            }
-            catch (Exception ex)
-            {
-                // Handles any unexpected runtime errors
-                Console.WriteLine("Error occurred: " + ex.Message);
-            }
+        }
+        catch (FormatException)
+        {
+            // Handles invalid number input (choice, parsing errors)
+            Console.WriteLine("Invalid input format. Please enter correct values.");
+        }
+        catch (Exception ex)
+        {
+            // Handles any unexpected runtime errors
+            Console.WriteLine(ex.Message);
         }
     }
 }
