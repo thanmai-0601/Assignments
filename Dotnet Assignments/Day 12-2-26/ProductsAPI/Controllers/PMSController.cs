@@ -55,6 +55,8 @@ namespace ProductsAPI.Controllers
             return NoContent();
         }
 
+
+
         [HttpPatch("{id}")]
 
         public IActionResult UpdatePatch(int id, ProductUpdateDTO dto)
