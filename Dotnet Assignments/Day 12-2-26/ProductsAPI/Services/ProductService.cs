@@ -5,6 +5,7 @@ namespace ProductsAPI.Services
 {
     public class ProductService : IProductService
     {
+        //Static data
         private static List<Product> products = new List<Product>
         {
             new Product{ Id = 1, Name = "Television", Price = 50000},

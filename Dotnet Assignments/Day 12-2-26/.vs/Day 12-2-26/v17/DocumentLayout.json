@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "ProductsAPI\\Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 12-2-26\\ProductsAPI\\Services\\ProductService.cs",
               "RelativeToolTip": "ProductsAPI\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-12T16:52:50.244Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "ProductsAPI\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T16:13:45.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T16:13:45.45Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "ProductsAPI\\Services\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T16:37:04.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T16:37:04.831Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "ProductsAPI\\Controllers\\PMSController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAkwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T17:19:40.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T17:19:40.647Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "ProductsAPI\\DTOs\\ProductCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T17:53:01.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T17:53:01.211Z"
             },
             {
               "$type": "Document",
