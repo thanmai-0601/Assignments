@@ -1,0 +1,18 @@
+﻿using Microsoft.Build.Framework;
+using System.Diagnostics.Eventing.Reader;
+
+namespace LibraryAPI.Models
+{
+    public class Category
+    {
+        public int Id { get; set; }
+
+        [Required]
+        public string Name { get; set; }
+
+        public List<Book>? Books { get; set; }
+
+
+
+    }
+}
