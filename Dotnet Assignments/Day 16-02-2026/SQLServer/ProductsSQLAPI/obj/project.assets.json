@@ -7788,11 +7788,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 16-02-2026\\ProductsSQLAPI\\ProductsSQLAPI.csproj",
+      "projectUniqueName": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 16-02-2026\\SQLServer\\ProductsSQLAPI\\ProductsSQLAPI.csproj",
       "projectName": "ProductsSQLAPI",
-      "projectPath": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 16-02-2026\\ProductsSQLAPI\\ProductsSQLAPI.csproj",
+      "projectPath": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 16-02-2026\\SQLServer\\ProductsSQLAPI\\ProductsSQLAPI.csproj",
       "packagesPath": "C:\\Users\\danda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 16-02-2026\\ProductsSQLAPI\\obj\\",
+      "outputPath": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 16-02-2026\\SQLServer\\ProductsSQLAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

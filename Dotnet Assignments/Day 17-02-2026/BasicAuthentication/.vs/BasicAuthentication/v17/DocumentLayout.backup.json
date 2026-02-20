@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 17-02-2026\\basicauthentication\\basicauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|solutionrelative:basicauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 17-02-2026\\basicauthentication\\basicauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|solutionrelative:basicauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 17-02-2026\\basicauthentication\\basicauthentication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|solutionrelative:basicauthentication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 17-02-2026\\basicauthentication\\basicauthentication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|solutionrelative:basicauthentication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 17-02-2026\\basicauthentication\\basicauthentication\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|solutionrelative:basicauthentication\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 17-02-2026\\basicauthentication\\basicauthentication\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|solutionrelative:basicauthentication\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 17-02-2026\\basicauthentication\\basicauthentication\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|solutionrelative:basicauthentication\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 17-02-2026\\basicauthentication\\basicauthentication\\basicauthentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|solutionrelative:basicauthentication\\basicauthentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 17-02-2026\\basicauthentication\\basicauthentication\\migrations\\20260217095904_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84C673E-731A-40A5-868D-6AC2D05959B5}|BasicAuthentication\\BasicAuthentication.csproj|solutionrelative:basicauthentication\\migrations\\20260217095904_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260217095904_initial.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\Migrations\\20260217095904_initial.cs",
+              "RelativeDocumentMoniker": "BasicAuthentication\\Migrations\\20260217095904_initial.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\Migrations\\20260217095904_initial.cs",
+              "RelativeToolTip": "BasicAuthentication\\Migrations\\20260217095904_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:59:04.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BasicAuthentication\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BasicAuthentication\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:10:19.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\Models\\UserDBContext.cs",
+              "RelativeDocumentMoniker": "BasicAuthentication\\Models\\UserDBContext.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\Models\\UserDBContext.cs",
+              "RelativeToolTip": "BasicAuthentication\\Models\\UserDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:08:13.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\Program.cs",
+              "RelativeDocumentMoniker": "BasicAuthentication\\Program.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\Program.cs",
+              "RelativeToolTip": "BasicAuthentication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:07:16.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\appsettings.json",
+              "RelativeDocumentMoniker": "BasicAuthentication\\appsettings.json",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\appsettings.json",
+              "RelativeToolTip": "BasicAuthentication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T09:05:56.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BasicAuthentication.csproj",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\BasicAuthentication.csproj",
+              "RelativeDocumentMoniker": "BasicAuthentication\\BasicAuthentication.csproj",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\BasicAuthentication.csproj",
+              "RelativeToolTip": "BasicAuthentication\\BasicAuthentication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-17T09:04:39.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BasicAuthentication\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "BasicAuthentication\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:03:08.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "BasicAuthentication\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "BasicAuthentication\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:02:18.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BasicAuthentication\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 17-02-2026\\BasicAuthentication\\BasicAuthentication\\Models\\User.cs",
+              "RelativeToolTip": "BasicAuthentication\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:58:56.671Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProductsSQLAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0636778f4b1979a4aae48cea62bc31ff4ca5f2dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7591c39a0ee90f5cc6035e1754e3af411df0b171")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProductsSQLAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProductsSQLAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{C9582537-3474-40E8-8D15-E011B8E9017A}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\controllers\\smscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9582537-3474-40E8-8D15-E011B8E9017A}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\webapplication\\studentsapi\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9582537-3474-40E8-8D15-E011B8E9017A}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9582537-3474-40E8-8D15-E011B8E9017A}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\webapplication\\studentsapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9582537-3474-40E8-8D15-E011B8E9017A}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,24 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\WebApplication\\StudentsAPI\\Services\\IStudentService.cs",
-              "RelativeDocumentMoniker": "StudentsAPI\\Services\\IStudentService.cs",
-              "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\WebApplication\\StudentsAPI\\Services\\IStudentService.cs",
-              "RelativeToolTip": "StudentsAPI\\Services\\IStudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T06:43:20.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "StudentsAPI.csproj",
               "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\WebApplication\\StudentsAPI\\StudentsAPI.csproj",
               "RelativeDocumentMoniker": "StudentsAPI\\StudentsAPI.csproj",
@@ -61,14 +44,14 @@
               "RelativeDocumentMoniker": "StudentsAPI\\Controllers\\SMSController.cs",
               "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\WebApplication\\StudentsAPI\\Controllers\\SMSController.cs",
               "RelativeToolTip": "StudentsAPI\\Controllers\\SMSController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-12T04:48:34.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\WebApplication\\StudentsAPI\\Models\\Student.cs",
               "RelativeDocumentMoniker": "StudentsAPI\\Models\\Student.cs",
