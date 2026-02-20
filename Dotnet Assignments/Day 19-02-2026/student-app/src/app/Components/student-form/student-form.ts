@@ -21,21 +21,26 @@ export class StudentForm implements OnInit {
 
   students: any[] = [];
   isEditMode = false;
+  showList: boolean = false;
 
   constructor(
     private studentService: Student,
-    private cdr: ChangeDetectorRef   // 🔥 force UI refresh
+    private cdr: ChangeDetectorRef
   ) {}
 
   ngOnInit(): void {
     this.loadStudents();
   }
 
+  toggleList() {
+    this.showList = !this.showList;
+  }
+
   loadStudents() {
     this.studentService.getStudents().subscribe({
       next: (data) => {
-        this.students = [...data];   // 🔥 new reference forces refresh
-        this.cdr.detectChanges();    // 🔥 ensures UI updates immediately
+        this.students = [...data];
+        this.cdr.detectChanges();
       },
       error: (err) => {
         console.error("Error loading students:", err);
@@ -50,11 +55,15 @@ export class StudentForm implements OnInit {
       this.studentService.updateStudent(this.student.id, this.student)
         .subscribe({
           next: () => {
+
+            alert("✅ Student updated successfully!");
+
             this.resetForm();
             this.loadStudents();
           },
           error: (err) => {
             console.error("Update error:", err);
+            alert("❌ Failed to update student.");
           }
         });
 
@@ -63,11 +72,15 @@ export class StudentForm implements OnInit {
       this.studentService.addStudent(this.student)
         .subscribe({
           next: () => {
+
+            alert("🎉 Student added successfully!");
+
             this.resetForm();
             this.loadStudents();
           },
           error: (err) => {
             console.error("Add error:", err);
+            alert("❌ Failed to add student.");
           }
         });
     }
@@ -79,15 +92,22 @@ export class StudentForm implements OnInit {
   }
 
   deleteStudent(id: number) {
+
+    const confirmDelete = confirm("Are you sure you want to delete this student?");
+
+    if (!confirmDelete) return;
+
     this.studentService.deleteStudent(id)
       .subscribe({
         next: () => {
-          // 🔥 instantly remove from UI without waiting
+
           this.students = this.students.filter(s => s.id !== id);
           this.cdr.detectChanges();
+
+          alert("🗑️ Student deleted successfully!");
         },
         error: (err) => {
-          console.error("Delete error:", err);
+          alert("❌ Failed to delete student.");
         }
       });
   }
