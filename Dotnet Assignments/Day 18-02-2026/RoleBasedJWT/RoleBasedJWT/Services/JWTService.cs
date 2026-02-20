@@ -23,6 +23,7 @@ namespace RoleBasedJWT.Services
             _expiresMinutes = int.Parse(_config["Jwt:ExpiresMinutes"] ?? "60");
         }
 
+        //JWT Token Generation
         public string GenerateToken(User user)
         {
             var claims = new List<Claim>
