@@ -8,6 +8,8 @@ namespace CountriesAPI.Models
         {
         }
 
+        //Seeding of data
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configure Relationship (Country - State)

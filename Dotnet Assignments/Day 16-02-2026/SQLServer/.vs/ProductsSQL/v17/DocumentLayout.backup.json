@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "ProductsSQLAPI\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 16-02-2026\\SQLServer\\ProductsSQLAPI\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "ProductsSQLAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T09:15:45.903Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "ProductsSQLAPI\\Models\\ProductsContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T09:11:07.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T09:11:07.168Z"
             }
           ]
         }
