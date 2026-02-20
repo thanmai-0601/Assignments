@@ -20,9 +20,12 @@ namespace StudentAPI
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAngular",
-                    policy => policy.AllowAnyOrigin()
+                    policy =>
+                    {
+                        policy.AllowAnyOrigin()
                                     .AllowAnyMethod()
-                                    .AllowAnyHeader());
+                                    .AllowAnyHeader();
+                    });
             });
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

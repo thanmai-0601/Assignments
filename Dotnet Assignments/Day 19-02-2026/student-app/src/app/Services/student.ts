@@ -5,16 +5,33 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class Student {
-  private apiUrl = 'https://localhost:7188/api/Student';
+
+  private apiUrl = 'https://localhost:7188/api/Students'; //API URL
 
   constructor(private http: HttpClient) { }
 
+  // GET ALL
+  getStudents() {
+    return this.http.get<any[]>(this.apiUrl);
+  }
+
+  // GET BY ID
+  getStudentById(id: number) {
+    return this.http.get<any>(`${this.apiUrl}/${id}`);
+  }
+
+  // POST
   addStudent(student: any) {
     return this.http.post(this.apiUrl, student);
   }
 
-  getStudents() {
-    return this.http.get(this.apiUrl);
+  // PUT
+  updateStudent(id: number, student: any) {
+    return this.http.put(`${this.apiUrl}/${id}`, student);
   }
-  
+
+  // DELETE
+  deleteStudent(id: number) {
+    return this.http.delete(`${this.apiUrl}/${id}`);
+  }
 }
