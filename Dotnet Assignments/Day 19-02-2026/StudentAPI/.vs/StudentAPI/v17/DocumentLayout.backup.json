@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 19-02-2026\\StudentAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{267FC465-ADDD-45E9-AE34-2D6CF1CCF74B}|StudentAPI\\StudentAPI.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 19-02-2026\\studentapi\\studentapi\\migrations\\20260220065117_change1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{267FC465-ADDD-45E9-AE34-2D6CF1CCF74B}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\migrations\\20260220065117_change1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{267FC465-ADDD-45E9-AE34-2D6CF1CCF74B}|StudentAPI\\StudentAPI.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 19-02-2026\\studentapi\\studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{267FC465-ADDD-45E9-AE34-2D6CF1CCF74B}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{267FC465-ADDD-45E9-AE34-2D6CF1CCF74B}|StudentAPI\\StudentAPI.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 19-02-2026\\studentapi\\studentapi\\migrations\\20260219122538_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{267FC465-ADDD-45E9-AE34-2D6CF1CCF74B}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\migrations\\20260219122538_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{267FC465-ADDD-45E9-AE34-2D6CF1CCF74B}|StudentAPI\\StudentAPI.csproj|c:\\users\\danda\\onedrive\\desktop\\webpages\\dotnet assignments\\day 19-02-2026\\studentapi\\studentapi\\migrations\\20260220065117_change1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{267FC465-ADDD-45E9-AE34-2D6CF1CCF74B}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\migrations\\20260220065117_change1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "20260220065117_change1.cs",
               "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 19-02-2026\\StudentAPI\\StudentAPI\\Migrations\\20260220065117_change1.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Migrations\\20260220065117_change1.cs",
               "ToolTip": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 19-02-2026\\StudentAPI\\StudentAPI\\Migrations\\20260220065117_change1.cs",
               "RelativeToolTip": "StudentAPI\\Migrations\\20260220065117_change1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T06:51:17.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 19-02-2026\\StudentAPI\\StudentAPI\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Controllers\\StudentsController.cs",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 19-02-2026\\StudentAPI\\StudentAPI\\Models\\Student.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Models\\Student.cs",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 19-02-2026\\StudentAPI\\StudentAPI\\Program.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Program.cs",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentDbContext.cs",
               "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 19-02-2026\\StudentAPI\\StudentAPI\\Data\\StudentDbContext.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Data\\StudentDbContext.cs",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 19-02-2026\\StudentAPI\\StudentAPI\\appsettings.json",
               "RelativeDocumentMoniker": "StudentAPI\\appsettings.json",
@@ -115,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "20260219122538_initial.cs",
               "DocumentMoniker": "C:\\Users\\danda\\OneDrive\\Desktop\\WebPages\\Dotnet Assignments\\Day 19-02-2026\\StudentAPI\\StudentAPI\\Migrations\\20260219122538_initial.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Migrations\\20260219122538_initial.cs",

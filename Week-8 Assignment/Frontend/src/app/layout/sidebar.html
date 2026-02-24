@@ -1,0 +1,48 @@
+<div class="min-h-screen bg-pink-50">
+    <!-- Navbar -->
+    <header class="bg-gradient-to-r from-red-600 to-pink-500 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <!-- Logo -->
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-white rounded flex items-center justify-center">
+                        <svg class="w-5 h-5 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <span class="text-white font-bold text-xl tracking-tight">RedGuard</span>
+                </div>
+
+                <!-- Navigation Links -->
+                <nav class="hidden md:flex space-x-4 h-full items-center">
+                    @if (role === 'Admin') {
+                        <a routerLink="/admin" [queryParams]="{tab:'list'}" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-red-700 transition">Home</a>
+                        <a routerLink="/admin" [queryParams]="{tab:'add'}" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-red-700 transition">Plans</a>
+                        <a routerLink="/admin" [queryParams]="{tab:'users'}" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-red-700 transition">People</a>
+                    }
+                    @if (role === 'Agent') {
+                        <a routerLink="/agent" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-red-700 transition">Home</a>
+                        <a routerLink="/agent" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-red-700 transition">Plans</a>
+                    }
+                    @if (role === 'Customer') {
+                        <a routerLink="/customer" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-red-700 transition">Home</a>
+                        <a routerLink="/customer" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-red-700 transition">Plans</a>
+                    }
+                </nav>
+
+                <!-- User Actions -->
+                <div class="flex items-center gap-4">
+                    <span class="text-white text-sm font-light hidden sm:inline">{{ userName }} ({{ role }})</span>
+                    <button (click)="logout()" class="bg-white/20 hover:bg-white/30 text-white px-4 py-1.5 rounded-full text-sm font-bold transition">
+                        Logout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+        <ng-content></ng-content>
+    </main>
+</div>

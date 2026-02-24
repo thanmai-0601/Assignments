@@ -1,0 +1,62 @@
+<div class="min-h-screen bg-gray-50 flex items-center justify-center p-4">
+  <div class="w-full max-w-sm bg-white rounded-xl shadow-md p-8 space-y-4">
+
+    <div class="text-center mb-2">
+      <h2 class="text-xl font-bold text-gray-800">Create Account</h2>
+      <p class="text-sm text-gray-400 mt-1">Fill in the details below</p>
+    </div>
+
+    <div>
+      <label class="block text-xs font-medium text-gray-500 mb-1">Full Name</label>
+      <input placeholder="John Doe" [(ngModel)]="name"
+        class="w-full px-3 py-2 rounded-lg border border-gray-200 focus:outline-none focus:border-green-400 text-sm text-gray-700">
+    </div>
+
+    <div>
+      <label class="block text-xs font-medium text-gray-500 mb-1">Email</label>
+      <input type="email" placeholder="you@email.com" [(ngModel)]="email"
+        class="w-full px-3 py-2 rounded-lg border border-gray-200 focus:outline-none focus:border-green-400 text-sm text-gray-700">
+    </div>
+
+    <div>
+      <label class="block text-xs font-medium text-gray-500 mb-1">Password</label>
+      <input type="password" placeholder="Min 6 characters" [(ngModel)]="password"
+        class="w-full px-3 py-2 rounded-lg border border-gray-200 focus:outline-none focus:border-green-400 text-sm text-gray-700">
+    </div>
+
+    <div>
+      <label class="block text-xs font-medium text-gray-500 mb-1">Role</label>
+      <select [(ngModel)]="role"
+        class="w-full px-3 py-2 rounded-lg border border-gray-200 focus:outline-none focus:border-green-400 text-sm text-gray-700 bg-white">
+        <option [ngValue]="0">Admin</option>
+        <option [ngValue]="1">Agent</option>
+        <option [ngValue]="2">Customer</option>
+      </select>
+    </div>
+
+    <div class="bg-gray-50 border border-gray-200 rounded-lg p-3">
+      <p class="text-xs font-medium text-gray-500 mb-2">Verify: What is {{ captchaA }} + {{ captchaB }}?</p>
+      <div class="flex gap-2">
+        <input type="number" placeholder="Answer" [(ngModel)]="captchaInput"
+          class="flex-1 px-3 py-2 rounded-lg border border-gray-200 focus:outline-none focus:border-green-400 text-sm text-gray-700">
+        <button type="button" (click)="generateCaptcha()"
+          class="px-3 py-2 bg-gray-100 hover:bg-gray-200 text-gray-500 rounded-lg text-sm transition"
+          title="Refresh">↺</button>
+      </div>
+      @if (captchaError) { <p class="text-xs text-red-500 mt-1">{{ captchaError }}</p> }
+    </div>
+
+    @if (msg) {
+    <p class="text-xs text-center" [class]="isError ? 'text-red-500' : 'text-green-600'">{{ msg }}</p>
+    }
+
+    <button (click)="register()"
+      class="w-full py-2.5 bg-green-600 hover:bg-green-700 text-white rounded-lg text-sm font-medium transition">
+      Register
+    </button>
+
+    <p class="text-center text-xs text-gray-400">
+      Already have an account? <a routerLink="/login" class="text-green-500 hover:underline">Sign in</a>
+    </p>
+  </div>
+</div>

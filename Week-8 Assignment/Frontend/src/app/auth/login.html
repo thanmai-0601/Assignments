@@ -1,0 +1,49 @@
+<div class="min-h-screen bg-gray-50 flex items-center justify-center p-4">
+    <div class="w-full max-w-sm bg-white rounded-xl shadow-md p-8 space-y-5">
+
+        <div class="text-center mb-2">
+            <h2 class="text-xl font-bold text-gray-800">Sign In</h2>
+            <p class="text-sm text-gray-400 mt-1">Enter your credentials to continue</p>
+        </div>
+
+        <div>
+            <label class="block text-xs font-medium text-gray-500 mb-1">Email</label>
+            <input type="email" placeholder="you@email.com" [(ngModel)]="email"
+                class="w-full px-3 py-2 rounded-lg border border-gray-200 focus:outline-none focus:border-blue-400 text-sm text-gray-700">
+        </div>
+
+        <div>
+            <div class="flex justify-between items-center mb-1">
+                <label class="text-xs font-medium text-gray-500">Password</label>
+                <a routerLink="/forgot-password" class="text-xs text-blue-500 hover:underline">Forgot?</a>
+            </div>
+            <input type="password" placeholder="Password" [(ngModel)]="password"
+                class="w-full px-3 py-2 rounded-lg border border-gray-200 focus:outline-none focus:border-blue-400 text-sm text-gray-700">
+        </div>
+
+        <div class="bg-gray-50 border border-gray-200 rounded-lg p-3">
+            <p class="text-xs font-medium text-gray-500 mb-2">Verify: What is {{ captchaA }} + {{ captchaB }}?</p>
+            <div class="flex gap-2">
+                <input type="number" placeholder="Answer" [(ngModel)]="captchaInput"
+                    class="flex-1 px-3 py-2 rounded-lg border border-gray-200 focus:outline-none focus:border-blue-400 text-sm text-gray-700">
+                <button type="button" (click)="generateCaptcha()"
+                    class="px-3 py-2 bg-gray-100 hover:bg-gray-200 text-gray-500 rounded-lg text-sm transition"
+                    title="Refresh">↺</button>
+            </div>
+            @if (captchaError) { <p class="text-xs text-red-500 mt-1">{{ captchaError }}</p> }
+        </div>
+
+        @if (error) {
+        <p class="text-xs text-red-500 text-center">{{ error }}</p>
+        }
+
+        <button (click)="login()"
+            class="w-full py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-sm font-medium transition">
+            Sign In
+        </button>
+
+        <p class="text-center text-xs text-gray-400">
+            No account? <a routerLink="/register" class="text-blue-500 hover:underline">Register</a>
+        </p>
+    </div>
+</div>

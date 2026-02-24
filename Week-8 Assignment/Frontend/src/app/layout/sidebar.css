@@ -1,0 +1,115 @@
+/* ============================================================
+   Sidebar → Top Navbar  (component-scoped, :host selectors)
+   No HTML, no file names, and no .ts changes needed.
+   ============================================================ */
+
+/* Outer wrapper: stack vertically so navbar sits on top */
+:host>div {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100vh;
+    background-color: #f1f5f9;
+}
+
+/* <aside>: horizontal top nav bar */
+:host aside {
+    width: 100% !important;
+    height: 52px !important;
+    min-height: 52px !important;
+    max-height: 52px !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    padding: 0 1.25rem !important;
+    background: #1e3a5f !important;
+    background-image: none !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18) !important;
+    flex-shrink: 0 !important;
+    overflow: hidden;
+}
+
+/* Brand/logo block */
+:host aside>div:first-child {
+    padding: 0 0.9rem 0 0 !important;
+    border-bottom: none !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+    margin-right: 0.6rem !important;
+    white-space: nowrap;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* User info block */
+:host aside>div:nth-child(2) {
+    padding: 0 0.75rem !important;
+    border-bottom: none !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+    margin-right: 0.25rem !important;
+    white-space: nowrap;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* Nav links: horizontal row */
+:host aside nav {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    padding: 0 0.25rem !important;
+    gap: 0.1rem !important;
+    flex: 1 !important;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* Each nav link: compact horizontal pill */
+:host aside nav a {
+    display: inline-flex !important;
+    align-items: center !important;
+    padding: 0.35rem 0.85rem !important;
+    gap: 0 !important;
+    border-radius: 6px !important;
+    font-size: 0.8rem !important;
+    white-space: nowrap !important;
+    line-height: 1 !important;
+    height: auto !important;
+}
+
+/* Hide SVG icons to keep the bar slim */
+:host aside nav a svg {
+    display: none !important;
+}
+
+/* Logout block: push to far right */
+:host aside>div:last-child {
+    margin-left: auto !important;
+    padding: 0 !important;
+    border-top: none !important;
+    flex-shrink: 0;
+}
+
+:host aside>div:last-child button {
+    width: auto !important;
+    padding: 0.35rem 0.85rem !important;
+    border-radius: 6px !important;
+    font-size: 0.8rem !important;
+    gap: 0 !important;
+    white-space: nowrap;
+}
+
+/* Hide logout icon */
+:host aside>div:last-child button svg {
+    display: none !important;
+}
+
+/* <main>: fill remaining vertical space */
+:host main {
+    flex: 1 !important;
+    overflow-y: auto !important;
+    background-color: #f1f5f9 !important;
+    padding: 1.5rem !important;
+}
